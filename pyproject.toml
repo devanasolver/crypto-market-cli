@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-market-cli"
+version = "0.1.0"
+description = "Free crypto market snapshot in your terminal: prices, movers, narratives, sentiment. No API key."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "Anas Solver"}]
+keywords = ["crypto", "market", "cli", "coingecko"]
+dependencies = ["requests>=2.31.0,<3.0.0"]
+
+[project.scripts]
+cryptomarket = "crypto_market.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
