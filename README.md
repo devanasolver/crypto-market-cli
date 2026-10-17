@@ -49,3 +49,7 @@ cryptomarket movers --limit 5
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Support
+
+If you find this project useful, [buy me a coffee](https://buymeacoffee.com/isaac49).
